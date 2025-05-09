@@ -1,0 +1,36 @@
+---
+config:
+    look: handDrawn
+    theme: forest
+    layout: elk
+---
+flowchart TD
+ subgraph subGraph0["Entradas do meio ambiente"]
+        Sol["Energia Solar"]
+        Chuva["Chuva"]
+  end
+ subgraph subGraph1["Entradas da Economia"]
+        InputsEcon["Sementes, Fertilizantes, Combustível, Trabalho"]
+  end
+ subgraph subGraph2["Fazenda"]
+        Solo["Solo (Estoque)"]
+        Cultura["Cultura de Milho (Processo)"]
+  end
+ subgraph s1["Saídas"]
+        Colheita["Milho Colhido (Produto)"]
+        Perdas["Perdas (Erosão, Respiração, Biomassa não colhida)"]
+  end
+    Sol -- "1.0 * 10^15 sej" --> Cultura
+    Chuva -- "5.0 * 10^14 sej" --> Solo
+    InputsEcon -- "8.0 * 10^14 sej" --> Cultura
+    Solo -- (Fluxo interno de nutrientes/água) --> Cultura
+    Solo -- "1.0 * 10^14  sej (Erosão)" --> Perdas
+    Cultura -- "1.2 * 10^15 sej" --> Colheita
+    Cultura -- "1.0 * 10^15  sej (Respiração,  etc.)" --> Perdas
+    style Sol color:#000000
+    style Chuva color:#000000
+    style Solo color:#000000
+    style Cultura color:#000000
+    style Colheita color:#000000
+    style Perdas color:#000000
+    style InputsEcon color:#000000
