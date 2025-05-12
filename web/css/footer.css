@@ -26,7 +26,7 @@ footer a:hover {
 @media (max-width: 1279px) {
     footer {
         height: 15px;
-        width: calc(100vw - 40px);
+        width: calc(100dvw - 40px);
         border-radius: 6px 6px 0 0;
         font-size: 5.5px;
         margin-top: 10px;

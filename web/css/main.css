@@ -111,7 +111,8 @@ div#wrapper:has(div.gridjs) {
     }
     .conteudo {
         width: calc(100vw - 40px);
-        margin: unset;
+        margin: 10px 0;
+        min-height: calc(100dvh - 85px);
     }
 
     h1 {
