@@ -1,0 +1,42 @@
+.seletor-componente-container {
+    gap: 16px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.seletor-componente-container p, .destaque {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--txt);
+}
+
+.seletor-componente-container div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seletor-componente-container select {
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 2px solid var(--txt);
+    color: var(--txt);
+    min-width: 200px;
+}
+
+.seletor-componente-container a.btn-acao {
+    font-size: 20px;
+    padding: 6px 16px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 35px;
+}

@@ -1,0 +1,13 @@
+.texto {
+    max-width: 1000px;
+}
+
+.cta {
+    max-width: 1000px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.conteudo img {
+    max-width: 800px;
+}

@@ -1,0 +1,105 @@
+:root {
+    --bg1: #CEF8D3;
+    --bg2: #ACFFB5;
+    --txt: #00300A;
+    --link: #114846;
+    --title: #00AF26;
+
+    --confirm: #8DFF9A;
+    --confirm-shadow: #16853E;
+    --action: #ACDCFF;
+    --action-shadow: #3662A4;
+    --cancel: #FF7E7E;
+    --cancel-shadow: #890423;
+}
+
+.btn-acao {
+    background-color: var(--action);
+    box-shadow: var(--action-shadow) 0 0 10px;
+}
+
+
+.btn-confirmar {
+    background-color: var(--confirm);
+    box-shadow: var(--confirm-shadow) 0 0 10px;
+}
+
+.btn-cancelar {
+    background-color: var(--cancel);
+    box-shadow: var(--cancel-shadow) 0 0 10px;
+}
+
+.btn-acao, .btn-confirmar, .btn-cancelar {
+    padding: 3px 16px;
+    font-size: 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--txt);
+}
+
+.btn-acao:hover, .btn-confirmar:hover, .btn-cancelar:hover {
+    text-decoration: underline;
+} 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background-color: var(--bg1);
+    font-family: "Roboto", sans-serif;
+    color: var(--txt);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 200px);
+    width: calc(100vw - 16%);
+    margin: 30px;
+}
+
+h1,
+h2,
+h3 {
+    color: #00AF26;
+    width: fit-content;
+}
+
+h1 {
+    font-size: 128px;
+    text-shadow: #1AFFAF 0 0 10px;
+    line-height: 100%;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.texto p {
+    font-size: 20px;
+    text-indent: 5em;
+    text-align: justify;
+}
+
+.material-symbols-outlined {
+    color: var(--txt);
+}
+
+.gridjs-head{
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+div#wrapper:has(div.gridjs) {
+    max-width: 740px;
+    margin-top: 10px;
+}

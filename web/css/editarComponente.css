@@ -1,0 +1,33 @@
+.label {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--txt);
+    margin-top: 15px;
+}
+
+input[type=text], select{
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 2px solid var(--txt);
+    color: var(--txt);
+    width: 300px;
+    height: 35px;
+}
+
+select {
+    padding: unset;
+    padding-left: 12px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

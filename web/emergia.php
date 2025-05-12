@@ -9,7 +9,7 @@
     ?>
 
     <div class="conteudo">
-        <?php include("conteudo/index.php"); ?>
+        <?php include("conteudo/emergia.php"); ?>
     </div>
 
     <?php

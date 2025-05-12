@@ -1,0 +1,40 @@
+.input-group {
+margin-bottom: 10px;
+}
+
+label {
+display: inline-block;
+width: 310px;
+text-align:right;
+margin-right: 15px;
+font-size: 20px;
+}
+
+input {
+padding: 4px;
+width: 260px;
+border-radius: 8px;
+}
+
+button {
+padding: 8px 16px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+#simulador-container{
+    margin: 25px;
+}
+
+#resultados {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#grafico{
+    width: 400px;
+    height: 400px;
+}

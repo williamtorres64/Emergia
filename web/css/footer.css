@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    height: 50px;
+    width: calc(100vw - 16%);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg2);
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0px 0px 10px 0px rgba(54,164,67,0.75);
+    font-size: 20px;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer a {
+    color: var(--txt);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

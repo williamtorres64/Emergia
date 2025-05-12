@@ -1,0 +1,16 @@
+.content-row {
+    display: flex;
+    margin: 30px 0;
+    max-width: 1160px;
+}
+
+p {
+    max-width: 1160px;
+}
+
+.content-row img {
+    height: 320px;
+    width: 320px;
+    margin: 0 20px;
+    border-radius: 30px; 
+}

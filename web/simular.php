@@ -9,7 +9,7 @@
     ?>
 
     <div class="conteudo">
-        <?php include("conteudo/index.php"); ?>
+        <?php include("conteudo/simular.php"); ?>
     </div>
 
     <?php
@@ -18,3 +18,4 @@
 </body>
 
 </html>
+
