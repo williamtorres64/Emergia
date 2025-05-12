@@ -8,6 +8,6 @@
         <a class="nav-link" href="componentes.php">Componentes</a>
     </nav>
     <a href="admin.php">
-    <img src="imagens/icon-admin.png">
+        <img src="imagens/icon-admin.png">
     </a>
 </header>
