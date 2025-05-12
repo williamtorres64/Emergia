@@ -105,7 +105,7 @@ div#wrapper:has(div.gridjs) {
 }
 
 
-@media (max-width: 1279px) {
+@media (max-width: 540px) {
     body {
         margin-top: 10px;
     }
@@ -120,7 +120,7 @@ div#wrapper:has(div.gridjs) {
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 31px;
     }
 
     h3 {

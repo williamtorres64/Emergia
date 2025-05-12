@@ -7,11 +7,11 @@ footer {
     background-color: var(--bg2);
     border-radius: 30px 30px 0 0;
     box-shadow: 0px 0px 10px 0px rgba(54, 164, 67, 0.75);
-    font-size: 20px;
+    font-size: 16.7px;
 }
 
 footer img {
-    width: 30px;
+    width: 25px;
 }
 
 footer a {
@@ -23,13 +23,36 @@ footer a:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1024px) {
+    footer {
+        height: 50px;
+        width: calc(100vw - 40px);
+        font-size: 13px;
+        border-radius: 25px 25px 0 0;
+    }
+
+}
+
+@media (max-width: 740px) {
+    footer {
+        height: 30px;
+        width: calc(100vw - 40px);
+        font-size: 8px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    footer img {
+        width: 18px;
+    }
+
+
+ }
+
+@media (max-width: 485px) {
     footer {
         height: 15px;
-        width: calc(100dvw - 40px);
-        border-radius: 6px 6px 0 0;
+               border-radius: 7.5px 7.5px 0 0;
         font-size: 5.5px;
-        margin-top: 10px;
     }
 
     footer img {

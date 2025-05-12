@@ -3,7 +3,7 @@
 # Script to start PHP built-in server in a new tmux session
 
 SESSION_NAME="php"
-ADDRESS="192.168.0.100:8081"
+ADDRESS="192.168.0.100:5152"
 DIRECTORY=$(pwd)
 
 # Check if the tmux session already exists
