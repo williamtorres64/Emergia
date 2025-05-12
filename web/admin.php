@@ -1,5 +1,9 @@
-<?php include("head.php") ?>
-       <title>Admin Panel</title>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<?php include("head.php"); ?>
+
+<body>
     <link rel="stylesheet" href="css/main.css">
     <style>
         .admin-container {
@@ -14,12 +18,12 @@
             margin-top: 30px;
         }
     </style>
-</head>
-<body>
+
     <div class="admin-container">
         <h1>Admin</h1>
         <a class="btn-cancelar reset-button" href="/api/reset.php">Reset Banco de Dados</a>
     </div>
-</body>
-</html>
 
+</body>
+
+</html>
